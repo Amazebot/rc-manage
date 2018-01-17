@@ -1,6 +1,6 @@
 {
   "name": "rc-manage",
-  "version": "0.0.0-develop",
+  "version": "0.0.0",
   "description": "CLI for automated provisioning and config of Rocket.Chat instances",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "test": "nyc mocha --exit --opts ./mocha.opts ./lib/**/*.spec.js",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "save": "git add -A && git status -s && git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "publish": "git push --follow-tags origin master && npm publish"
   },
   "engines": {
     "node": "> 8.0.0",
