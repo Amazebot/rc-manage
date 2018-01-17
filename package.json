@@ -7,7 +7,7 @@
     "pretest": "standard",
     "start": "node ./lib/index.js",
     "test": "nyc mocha --exit --opts ./mocha.opts ./lib/**/*.spec.js",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "save": "git add -A && git status -s && git-cz",
     "release": "standard-version",
     "publish": "git push --follow-tags origin master && npm publish"
@@ -56,6 +56,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "codecov": "^3.0.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "mocha": "^4.1.0",

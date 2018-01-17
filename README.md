@@ -3,7 +3,7 @@ A CLI for automated provisioning and config of Rocket.Chat instances
 
 [![npm version](https://img.shields.io/npm/v/rc-manage.svg?style=flat)](https://www.npmjs.com/package/rc-manage)
 [![Build Status](https://travis-ci.org/Amazebot/rc-manage.svg?branch=master)](https://travis-ci.org/Amazebot/rc-manage)
-[![Coverage Status](https://coveralls.io/repos/github/Amazebot/rc-manage/badge.svg?branch=master)](https://coveralls.io/github/Amazebot/rc-manage?branch=master)
+[![codecov](https://codecov.io/gh/Amazebot/rc-manage/branch/master/graph/badge.svg)](https://codecov.io/gh/Amazebot/rc-manage)
 [![dependencies Status](https://david-dm.org/Amazebot/rc-manage/status.svg)](https://david-dm.org/Amazebot/rc-manage)
 [![devDependencies Status](https://david-dm.org/Amazebot/rc-manage/dev-status.svg)](https://david-dm.org/Amazebot/rc-manage?type=dev)
 
