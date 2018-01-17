@@ -1,0 +1,6 @@
+--require ./mocha.env
+--require mocha-clean
+--recursive
+--sort
+--use-strict
+--reporter spec
