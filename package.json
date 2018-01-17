@@ -1,6 +1,6 @@
 {
   "name": "rc-manage",
-  "version": "0.0.0-develop",
+  "version": "0.0.0",
   "description": "CLI for automated provisioning and config of Rocket.Chat instances",
   "main": "index.js",
   "scripts": {
